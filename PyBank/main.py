@@ -22,12 +22,12 @@ with open(csvpath) as csvfile:
 total_m = len(budget_data)
 
 
-# finding net total form profit/losses
+### finding net total form profit/losses
 # profit/losses column needs to be converted in integer
 total_sum = sum(int(row[1]) for row in budget_data)
 
 
-# finding average change in profit/losses
+### finding average change in profit/losses
 # array to store the difference values between each month
 diffs = []
 # for loop that takes the current ith month minue the previous month 
