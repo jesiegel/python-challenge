@@ -4,7 +4,7 @@ import csv
 # importing budget data
 budget_data = []
 
-csvpath = os.path.join('budget_data.csv')
+csvpath = os.path.join("Resources", "budget_data.csv")
 
 with open(csvpath) as csvfile:
 
