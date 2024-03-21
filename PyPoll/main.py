@@ -4,7 +4,7 @@ import csv
 # importing election data
 election_data = []
 
-csvpath = os.path.join('election_data.csv')
+csvpath = os.path.join("Resources", "election_data.csv")
 
 with open(csvpath) as csvfile:
 
